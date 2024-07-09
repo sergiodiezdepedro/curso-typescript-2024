@@ -1,0 +1,21 @@
+## Copilot
+¡Claro! En la última versión de CSS, hay varias mejoras y novedades interesantes. Permíteme compartir algunas de ellas:
+- Mejoras y novedades en texto:
+    - Text-wrap: Introduce los parámetros "balance" y "pretty". "Balance" distribuye visualmente el texto en un bloque para evitar palabras huérfanas o baja densidad de palabras en una línea. "Pretty" previene la creación de palabras huérfanas en párrafos densos.
+    - Text-box trim y text-box-edge: Aunque aún no tiene un soporte generalizado, esta propiedad es prometedora. Permite ajustar el recorte del contenido en cajas de texto.
+- Mejoras y novedades en color:
+    - Color-mix(): Permite mezclar colores de manera más flexible.
+    - LCH y LAB: Nuevos espacios de color para mayor precisión.
+    - Colores relativos: Facilita la especificación de colores relativos a otros elementos.
+- Novedades responsive:
+    - Container queries: Ahora puedes aplicar estilos según el tamaño del contenedor, no solo del viewport.
+- Mejoras de usabilidad:
+    - User-valid y user-invalid: Identifican campos de formulario válidos e inválidos.
+    - View Transitions: Transiciones suaves entre vistas.
+- Otras novedades increíbles:
+    - Scope: Define el alcance de estilos.
+    - Anidamiento CSS: Similar a SASS.
+    - :Has(): Selecciona elementos que contienen otros elementos.
+    - Funciones trigonométricas: Útiles para animaciones.
+    - Animation-Timeline: Scroll(): Reduce la dependencia de JavaScript.
+En resumen, CSS sigue evolucionando para ofrecer más flexibilidad y potencia a los diseñadores web. ¡Espero que encuentres estas novedades emocionantes! 😊
