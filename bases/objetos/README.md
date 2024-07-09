@@ -1,0 +1,1 @@
+Para ver los resultados en la consola del navegador cambiar en `index.html` el archivo `*.js` correspondiente.
