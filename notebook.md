@@ -52,7 +52,51 @@ Compuestos:
 - Genéricos
 - Tuplas
 
+## `tsconfig.json`
+
+[Documentación oficia](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+
+**Depurar código .ts**
+
+```json
+ /* Enable constraints that allow a TypeScript project to be used with project references. Hay que descomentar esta línea */
+"composite": true,
+/* Create source map files for emitted JavaScript files. Hay que descomentar esta línea */
+ "sourceMap": true,                                             
+```
+**IMPORTANTE**: hay que hacer estos cambios en el `tsconfig.json` con el watch para transpilar al vuelo detenido.
 
 
+**Sin comentarios en los archivos `.js`**
 
+```json
+ /* Disable emitting comments. Hay que descomentar esta línea */
+"removeComments": true,                          
+```
 
+**Excluir de la transpilación directorios y/o archivos**
+
+```json
+/* Al final del tsconfig.json */
+{
+    /* Las opciones del archivo */
+},
+"exclude": [
+    "loren-ipsum/*.ts",
+    "dist",
+    "out",
+    "tests",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+]
+```
+[Un ejemplo](https://chatgpt.com/share/29f9f68e-311a-4cf6-a691-bf985bfdd442)
+
+**Unir todos los archivos `.ts` en un único archivo `.js` de salida**
+
+```json
+/* Specify what module code is generated. Sólo los módulos 'amd' y 'system' admiten la posibilidad de un archivo único de salida*/
+ "module": "amd",                                
+   /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. Descomentar la línea y poner el nombre dle arcghvo de salida deseado*/
+"outFile": "./lorem-ipsum.js",                               
+```
