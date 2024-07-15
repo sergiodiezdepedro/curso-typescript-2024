@@ -17,9 +17,9 @@
   const apocalipsis3 = Apocalipsis.callApocalipsis(
     "Tortilla de patatas sin cebolla"
   );
-  console.log(apocalipsis1);
-  console.log(apocalipsis2);
-  console.log(apocalipsis3);
+  // console.log(apocalipsis1);
+  // console.log(apocalipsis2);
+  // console.log(apocalipsis3);
 })();
 
 // ? En este ejemplo, el método 'callApocalipsis' ahora acepta un parámetro 'name' que se pasa al constructor de Apocalipsis. Sin embargo, debido a que estamos implementando un patrón Singleton, sólo se creará una instancia de Apocalipsis, por lo que los parámetros adicionales en las llamadas subsiguientes a 'callApocalipsis' no tendrán efecto en la instancia creada inicialmente.
