@@ -100,3 +100,12 @@ Compuestos:
    /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. Descomentar la línea y poner el nombre dle arcghvo de salida deseado*/
 "outFile": "./lorem-ipsum.js",                               
 ```
+
+**Decoradores en TypeScript**
+
+[Documentación oficial](https://www.typescriptlang.org/docs/handbook/decorators.html)
+
+**Convert JSON into typesafe code in any language**
+https://quicktype.io/
+
+Hay una extensión para Visual Studio Code: `Paste JSON as Code` .
